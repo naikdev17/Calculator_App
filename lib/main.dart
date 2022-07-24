@@ -63,7 +63,7 @@ class CalcAppState extends State<CalcApp> {
                   padding: const EdgeInsets.only(right: 12),
                   child: Text(
                     _history,
-                    style: TextStyle(fontSize: 30),
+                    style: TextStyle(fontSize: 30, color: Colors.white),
                   ),
                 ),
                 alignment: Alignment(1.0, 1.0),
@@ -86,7 +86,7 @@ class CalcAppState extends State<CalcApp> {
                     text: 'AC',
                     fillColor: 0xFF6C807F,
                     textSize: 20,
-                    callback: allClear, 
+                    callback: allClear,
                   ),
                   CalcButton(
                     text: 'C',
